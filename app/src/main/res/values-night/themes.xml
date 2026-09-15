@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.Apps.DayNight" parent="Theme.Apps.Dark" />
+
+    <style name="Theme.Apps.Dark" parent="Theme.Apps">
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="colorPrimary">@color/waxd_primary</item>
+        <item name="colorOnPrimary">@color/waxd_background</item>
+        <item name="colorSecondary">@color/waxd_accent</item>
+        <item name="colorOnSecondary">@color/waxd_background</item>
+        <item name="colorSurface">@color/waxd_background</item>
+        <item name="colorOnSurface">@color/waxd_text</item>
+        <item name="android:colorBackground">@color/waxd_background</item>
+        <item name="colorOnBackground">@color/waxd_text</item>
+    </style>
+</resources>

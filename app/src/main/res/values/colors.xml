@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Waxd terminal/ops-console theme. Same four hex values as every other
+        waxd reskin. Applied in values-night/themes.xml since dark mode is
+        forced always (see ApplicationImpl.kt); this app had no explicit
+        Material3 color role overrides at all before, just the framework
+        default scheme plus Material You dynamic color.
+    -->
+    <color name="waxd_background">#0A0C0A</color>
+    <color name="waxd_text">#D8F5E0</color>
+    <color name="waxd_primary">#2E9E5B</color>
+    <color name="waxd_accent">#4CFF8B</color>
+</resources>
